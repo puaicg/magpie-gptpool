@@ -16,7 +16,10 @@
     "LICENSE",
     "test",
     "gui",
-    "python"
+    "python",
+    "!python/test_*.py",
+    "!python/**/__pycache__/**",
+    "!python/**/*.pyc"
   ],
   "scripts": {
     "test": "node --test --test-concurrency=1 test/*.test.mjs",
@@ -43,6 +46,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/puaicg/magpie-gptpool"
+  },
+  "homepage": "https://github.com/puaicg/magpie-gptpool#readme",
+  "bugs": {
+    "url": "https://github.com/puaicg/magpie-gptpool/issues"
   },
   "magpie": {
     "name": "GPTFree号池",
