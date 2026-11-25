@@ -4,6 +4,13 @@
 新功能与修复进 patch。每个版本打 `v<version>` tag，Magpie 里看的是 commit，界面页脚和
 `/api/health` 里的 `version` 才是这个号。
 
+## [0.12.11] - 2026-11-25
+
+### 变更
+
+- package.json 补 python 排除规则，发布包不再带 test_*.py 与 __pycache__
+- package.json 补 homepage / bugs 字段，指向本仓库
+
 ## [0.12.10] - 2026-11-21
 
 **续期从「拿密码重登」换成「用 refresh_token 换」。顺带把上游的浏览器 OAuth 登录搬过来。**
